@@ -73,11 +73,9 @@ func enums() {
 		kb
 		mb
 		gb
-		tb
-		pb
 	)
 	fmt.Println(cpp, javascript, python, golang)
-	fmt.Println(b, kb, mb, gb, tb, pb)
+	fmt.Println(b, kb, mb, gb)
 }
 
 func main() {
